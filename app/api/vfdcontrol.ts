@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api/v1/vfdcontrol",
+  // baseURL: "http://localhost:8080/api/v1/vfdcontrol",
+  baseURL: "https://modbus-spring-boot-jvczhicy6q-uc.a.run.app",
   headers: {
     "Content-Type": "application/json",
   },
