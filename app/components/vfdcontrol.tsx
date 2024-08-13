@@ -42,7 +42,7 @@ const App: React.FC = () => {
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
                 <h2 className="text-3xl font-extrabold text-gray-900">
-                  VFD Control
+                  PLC Control
                 </h2>
                 <p className="text-xl">
                   Lamp Status: {lampStatus ? "ON" : "OFF"}
